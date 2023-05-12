@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+
+header{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #595959;
+    position: relative;
+    font-size: 2rem;
+    background-color: #CE50FB;
+}
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+.crimson{
+    font-family: 'Crimson Text', serif;;
+}
+.link_seta{
+    position: absolute;
+    top: 0.1rem;
+    left: 0.2rem;
+} 
+
+.seta{
+    width: 2.7rem;
+    height:2.7rem;
+}
+
+footer{
+    width: 100%;
+    height: 4rem;
+    display:flex;
+    justify-content: space-between;
+    border-top: 2px solid #595959;
+    position:absolute;
+    bottom: 0;
+    background-color: #CE50FB;
+}
+
+.caixa{
+    width: 100%;
+    height: 10rem;
+    border-bottom: 2px solid #B3B3B3;
+    padding: 0.5rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.nota{
+    position:absolute;
+    right: 1.2rem;
+    bottom: 0.5rem;
+}
+
+ul{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.estrela{
+    height: 2rem;
+    width: 2rem;
+}
+
+.posição_estrela{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 13rem;
+    height: 2rem;
+    /* border: 1px solid black; */
+    padding: 3px;
+    position: relative;
+
+}
