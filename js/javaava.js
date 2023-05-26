@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    nomes = document.querySelectorALL('.nome')
-    for(nome of nomes){
+    nomesprofs = document.querySelectorALL('.nomeprof')
+    for(nome of nomesprofs){
     nome.innerHTML=localStorage.getItem('nome')}
 })
