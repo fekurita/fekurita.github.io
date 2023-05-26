@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     nomesprofs = document.querySelectorAll('.nomeprof')
+
     for(nome of nomesprofs){
-    nome.innerHTML=localStorage.getItem('nome')}
+    nome.innerHTML= "Para:"+localStorage.getItem('nome').split(" ")[0]+"/"+localStorage.getItem("prof").split(" ").at(-1)}
 })
-//localStorage.getItem("prof")
